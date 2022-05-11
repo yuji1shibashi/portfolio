@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>test</title>
+        <script type='module' src="./js/index.js"></script>
+        <style>
+            /* タブ */
+            .panel {
+                display:none;
+            }
+            .panel.is-show {
+                display:block;
+            }
+            .tab.is-active {
+                background-color:blue;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+
+        </header>
+        <main>
+            <!-- タブ -->
+            <ul class="tab_area">
+                <li class="tab profile is-active"></li>プロフィール</li>
+                <li class="tab skill">スキル</li>
+                <li class="tab work">経歴</li>
+                <li class="tab contact">お問い合わせ</li>
+            </ul>
+            <!-- 各画面 -->
+            <div class="panel_area">
+                <!-- プロフィール -->
+                <div class="panel profile is-show">
+                    プロフィール
+                </div>
+                <!-- スキル -->
+                <div class="panel skill">
+                    スキル
+                </div>
+                <!-- 経歴 -->
+                <div class="panel work">
+                    経歴
+                </div>
+                <!-- お問い合わせ -->
+                <div class="panel contact">
+                    お問い合わせ
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
