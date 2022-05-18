@@ -1,4 +1,5 @@
 import { Tab } from './tab.js';
+import { Skill } from './skill.js';
 
 /**
  * HTML読み込み後に実行
@@ -6,4 +7,6 @@ import { Tab } from './tab.js';
 window.onload = function () {
     // タブを生成する
     new Tab();
+    // スキルを生成する
+    new Skill();
 }

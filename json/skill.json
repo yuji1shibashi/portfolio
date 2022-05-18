@@ -1,0 +1,26 @@
+[
+    {
+        "title": "サーバーサイド",
+        "icon_path": "aaa/aaa",
+        "skills": [
+            {"name": "PHP", "type": "1", "period": "5年00ヶ月", "rank": 5},
+            {"name": "Laravel", "type": "1", "period": "3年00ヶ月", "rank": 5},
+            {"name": "Phalcon", "type": "1", "period": "1年00ヶ月", "rank": 4},
+            {"name": "hoge", "type": "1", "period": "0年00ヶ月", "rank": 0},
+            {"name": "fuga", "type": "1", "period": "0年00ヶ月", "rank": 0}
+        ],
+        "comment": "aaaaa"
+    },
+    {
+        "title": "フロントサイド",
+        "icon_path": "bbb/bbb",
+        "skills": [
+            {"name": "JavaScript", "type": "1", "period": "5年00ヶ月", "rank": 5},
+            {"name": "TypeScript", "type": "1", "period": "3年00ヶ月", "rank": 5},
+            {"name": "JQuery", "type": "1", "period": "1年00ヶ月", "rank": 4},
+            {"name": "Angular.js", "type": "1", "period": "0年00ヶ月", "rank": 0},
+            {"name": "Vue.js", "type": "1", "period": "0年00ヶ月", "rank": 0}
+        ],
+        "comment": "bbbb"
+    }
+]
