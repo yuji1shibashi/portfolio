@@ -16,14 +16,121 @@
             .tab.is-active {
                 background-color:blue;
             }
+
+            /* 共通 */
+            .w220px {width: 220px;}
+            .w120px {width: 120px;}
+
+            /* スキル */
+            .skill-table-area {
+                margin: auto;
+            }
+
+            .skill-table {
+                width: 650px;
+                height: 200px;
+                background-color: blue;
+                border-radius: 15px;
+                filter: drop-shadow(5px 5px 5px rgba(100, 100, 0, 1));
+                display: inline-block;
+                padding: 10px 20px;
+                margin: 0px 25px;
+            }
+
+            .skill-table th {
+                text-align: left;
+            }
+
+            .skill-table .skill-title {
+                width: 650px;
+                text-align: center;
+            }
         </style>
     </head>
     <body>
         <header>
 
         </header>
-        <main>
-            <!-- タブ -->
+
+        <div id="skill-area" class="skill-table-area">
+            <table class="skill-table">
+                <thead>
+                    <tr>
+                        <th class="skill-title" colspan="4">タイトル</th>
+                    <tr>
+                    <tr>
+                        <th class="w220px">技術</th>
+                        <th class="w120px">種類</th>
+                        <th class="w120px">経験年数</th>
+                        <th class="w120px">スキル</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>aaaa1</td>
+                        <td>bbbb1</td>
+                        <td>cccc1</td>
+                        <td>dddd1</td>
+                    </tr>
+                    <tr>
+                        <td>aaaa2</td>
+                        <td>bbbb2</td>
+                        <td>cccc2</td>
+                        <td>dddd2</td>
+                    </tr>
+                    <tr>
+                        <td>aaaa3</td>
+                        <td>bbbb3</td>
+                        <td>cccc3</td>
+                        <td>dddd3</td>
+                    </tr>
+                    <tr><td colspan="4" style="background-color: red;">コメント</td></tr>
+                </tbody>
+            </table>
+            <table class="skill-table">
+                <thead>
+                    <tr>
+                        <th class="skill-title" colspan="4">タイトル</th>
+                    <tr>
+                    <tr>
+                        <th>技術</th>
+                        <th>種類</th>
+                        <th>経験年数</th>
+                        <th>スキル</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>aaaa1</td>
+                        <td>bbbb1</td>
+                        <td>cccc1</td>
+                        <td>dddd1</td>
+                    </tr>
+                    <tr>
+                        <td>aaaa2</td>
+                        <td>bbbb2</td>
+                        <td>cccc2</td>
+                        <td>dddd2</td>
+                    </tr>
+                    <tr>
+                        <td>aaaa3</td>
+                        <td>bbbb3</td>
+                        <td>cccc3</td>
+                        <td>dddd3</td>
+                    </tr>
+                    <tr><td colspan="4" style="background-color: red;">コメント</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+
+
+
+
+
+
+        <main style="display:none;">
+            タブ
             <ul class="tab_area">
                 <li class="tab profile is-active"></li>プロフィール</li>
                 <li class="tab skill">スキル</li>
