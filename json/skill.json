@@ -1,0 +1,66 @@
+[
+    {
+        "title": "サーバーサイド",
+        "icon_path": "./img/php.png",
+        "skills": [
+            {"name": "PHP", "type": 1, "period": "4年06ヶ月", "rank": 5, "logo_path": "./img/php.png", "comment": "PHPは現職に入社してから現在までずっと扱ってきている言語です。<br>そのためスキル面では即戦力になれるかと思います。<br>プレーンなPHPは2案件経験があるのと、LP制作で使用しておりました。<br>バージョンは直近ですと8系を使用しております。"},
+            {"name": "Laravel", "type": 2, "period": "3年00ヶ月", "rank": 5, "logo_path": "./img/php.png", "comment": "Laravelは１番触れてきたフレームワークとなります。<br>基本的なMVCの他に、バリデーション、クエリビルダ、バッチ処理やslackに通知を飛ばしたり、<br>外部のAPIを使った処理の実装なども行っておりました。<br>バージョンは直近ですと8系を使用しております。"},
+            {"name": "Phalcon", "type": 2, "period": "1年00ヶ月", "rank": 2, "logo_path": "./img/php.png", "comment": "Phalconは素のPHPで書かれていたプロジェクトをPhalconの載せる形で扱った経験がございます。<br>Phalcon独自の機能はそこまで触っておりません"},
+            {"name": "FuelPHP", "type": 2, "period": "0年01ヶ月", "rank": 1, "logo_path": "./img/php.png", "comment": "現職の研修の時に触ったフレームワークです。MVCの知識はこの時に習得いたしました。<br>案件で使用する場合は少し復習が必要ですが、そこまで苦戦しない想定です。"},
+            {"name": "CakePHP", "type": 2, "period": "0年00ヶ月", "rank": 1, "logo_path": "./img/php.png", "comment": "個人的な自己学習として3系に触ったことがございます。<br>案件で使用する場合は少し復習が必要ですが、そこまで苦戦しない想定です。"},
+            {"name": "node.js", "type": 1, "period": "1年00ヶ月", "rank": 3, "logo_path": "./img/php.png", "comment": "SPAを使った案件の時に触れておりました。<br>Promiseで非同期処理の順番を担保して外部のAPIと連携をしておりました。"}
+        ]
+    },
+    {
+        "title": "フロントサイド",
+        "icon_path": "./img/php.png",
+        "skills": [
+            {"name": "JavaScript", "type": 1, "period": "5年00ヶ月", "rank": 5, "logo_path": "./img/php.png", "comment": "現職に入ったころから扱ってきている言語です。<br>基本的なDOM操作やAJAX、イベント処理など必要な知識は身についております。"},
+            {"name": "TypeScript", "type": 1, "period": "1年00ヶ月", "rank": 5, "logo_path": "./img/php.png", "comment": "型かカプセル化などJavascriptよりもより安全な形での実装を行うことができました。"},
+            {"name": "JQuery", "type": 3, "period": "4年00ヶ月", "rank": 5, "logo_path": "./img/php.png", "comment": "Jqueryはよく使っているライブラリです。<br>DOM操作や、AJAX、イベントなどJavascriptで扱っているものは同じように扱うことができます。"},
+            {"name": "Angular.js", "type": 2, "period": "1年00ヶ月", "rank": 3, "logo_path": "./img/php.png", "comment": "初めてSPAを学んだ言語です。<br>コンポーネントやモジュールなどの考え方、Angularの基本的な使い方は問題ないかと思います。"},
+            {"name": "Vue.js", "type": 2, "period": "0年03ヶ月", "rank": 2, "logo_path": "./img/php.png", "comment": "経験としてはまだ少ないですが、vueの機能、ライフサイクルなどの知識は理解できております。"}
+        ]
+    },
+    {
+        "title": "インフラ",
+        "icon_path": "./img/php.png",
+        "skills": [
+            {"name": "vagrant", "type": 4, "period": "4年00ヶ月", "rank": 3, "logo_path": "./img/php.png", "comment": "開発環境の構築をする際に経験がござます。それに伴いLinuxのコマンドも知識としてあり、ディレクトリやファイルの操作、ログの調査なども行っております。"},
+            {"name": "VirtyalBox", "type": 4, "period": "4年00ヶ月", "rank": 3, "logo_path": "./img/php.png", "comment": "vagrantと合わせて使用しております。"},
+            {"name": "Docker", "type": 4, "period": "1年06ヶ月", "rank": 2, "logo_path": "./img/php.png", "comment": ""},
+            {"name": "AWS", "type": 4, "period": "1年02ヶ月", "rank": 5, "logo_path": "./img/php.png", "comment": "AWSはCodeCommit、CodeBuild、CodeDeployを使ってリリースがスムーズにできるようにCodePipelineの構築。S3を使ったファイル連携やログの管理を行なった経験がございます"}
+        ]
+    },
+    {
+        "title": "バージョン管理",
+        "icon_path": "./img/php.png",
+        "skills": [
+            {"name": "TortesSVN", "type": 4, "period": "0年06ヶ月", "rank": 3, "logo_path": "./img/php.png", "comment": ""},
+            {"name": "gitlab", "type": 4, "period": "2年06ヶ月", "rank": 5, "logo_path": "./img/php.png", "comment": ""},
+            {"name": "github", "type": 4, "period": "1年00ヶ月", "rank": 5, "logo_path": "./img/php.png", "comment": ""},
+            {"name": "CodeCommit", "type": 4, "period": "0年06ヶ月", "rank": 5, "logo_path": "./img/php.png", "comment": ""}
+        ]
+    },
+    {
+        "title": "ツール",
+        "icon_path": "./img/php.png",
+        "skills": [
+            {"name": "Visial Stasio Code", "type": 4, "period": "4年00ヶ月", "rank": 5, "logo_path": "./img/php.png", "comment": "１番使っているテキストエディタです。便利なプラグインが多くて使いやすいです。"},
+            {"name": "workbench", "type": 4, "period": "4年00ヶ月", "rank": 5, "logo_path": "./img/php.png", "comment": "SQL関連の操作は基本的にworkbenchを使用しております。今後も使いたいツールです。"},
+            {"name": "sorthtree", "type": 4, "period": "4年00ヶ月", "rank": 5, "logo_path": "./img/php.png", "comment": "Git関連の操作はGUIを使用しておりました。今後も使用していきたいです。"},
+            {"name": "slack", "type": 4, "period": "4年06ヶ月", "rank": 5, "logo_path": "./img/php.png", "comment": "現職、SESでよく使っていたチャットツールです。個人的には一番使い慣れたツールです"},
+            {"name": "redmine", "type": 4, "period": "4年06ヶ月", "rank": 5, "logo_path": "./img/php.png", "comment": "現職で会社のルールや案件情報、タスクなどを管理しています。"},
+            {"name": "backlog", "type": 4, "period": "1年00ヶ月", "rank": 3, "logo_path": "./img/php.png", "comment": "案件でタスク管理やスケジュール管理に使用しておりました。"},
+            {"name": "teraturm", "type": 4, "period": "2年00ヶ月", "rank": 3, "logo_path": "./img/php.png", "comment": "テスト環境や本番環境に入るときに使用しておりました。ログの調査やソースの反映も行っております。"},
+            {"name": "spreadsheet", "type": 4, "period": "4年00ヶ月", "rank": 5, "logo_path": "./img/php.png", "comment": "用件定義、設計書、QA確認、テスト項目書作成などに使用しておりました。今後も使用していきたいです。"}
+        ]
+    },
+    {
+        "title": "資格",
+        "icon_path": "./img/php.png",
+        "skills": [
+            {"name": "ITパスポート", "type": 4, "period": "2022年01月～", "rank": 5, "logo_path": "./img/php.png", "comment": ""}
+        ]
+    }
+]

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>test</title>
+        <link rel="stylesheet" href="./css/common.css">
+        <script type='module' src="./js/index.js"></script>
+    </head>
+    <body>
+        <header>
+            <img class="hoge" src="./img/top.jpg">
+        </header>
+        <main>
+            <!-- タブ -->
+            <ul class="tab_area">
+                <li class="tab profile is-active">プロフィール</li>
+                <li class="tab skill">スキル</li>
+                <li class="tab work">経歴</li>
+                <li class="tab contact">お問い合わせ</li>
+            </ul>
+            <!-- 各画面 -->
+            <div class="panel_area">
+                <!-- プロフィール -->
+                <div class="panel profile is-show">
+                    <img class="profile-manga" src="./img/profile.jpg">
+                </div>
+                <!-- スキル -->
+                <div class="panel skill">
+                    <div id="skill-area" class="skill-area"></div>
+                </div>
+                <!-- 経歴 -->
+                <div class="panel work">
+                    <div id="work-area" class="work-area"></div>
+                    <div class="wrap">
+                        <h3 class="slideToggle" data-id="hoge1">社内研修：2018/03～2018/04  (2ヶ月)</h3>
+                        <div id="hoge1" style="display: none;">
+<div>使用言語：PHP、MySQL、HTML、css、JavaScript</div>
+<div>FW・ライブラリ：roundcube</div>
+<div>開発環境：vagrant、virtualbox</div>
+<div>バージョン管理：TortoiseSVN</div>
+<div>担当フェーズ：詳細設計、開発、単体テスト、結合テスト</div>
+<div>備考：<br>
+店舗向けのクラウドアドレスシステムの新規実装・改修を行いました。<br>
+roundcubeというオープンソースを使った開発で、この案件を通して一通りの開発の流れを学ぶことができました。</div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="wrap">
+                        <h3 class="open_h3 btn-1">BRAND INFO</h3>
+                        <button type="button" class="slideToggle" data-id="hoge2">▼</button>
+                        <div id="hoge2">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
+                    </div>
+                    <div class="wrap">
+                        <h3 class="open_h3 btn-1">BRAND INFO</h3>
+                        <button type="button" class="slideToggle" data-id="hoge3">▼</button>
+                        <div id="hoge3">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
+                    </div>
+                </div>
+                <!-- お問い合わせ -->
+                <div class="panel contact">
+                    お問い合わせ
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

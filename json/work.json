@@ -1,0 +1,11 @@
+[
+    {
+        "name": "社内研修",
+        "period": "2018/03～2018/04 (2ヶ月)",
+        "lang": "PHP、MySQL、HTML、css、JavaScript",
+        "fw": "FuelPHP、JQuery",
+        "version": "git",
+        "phase": "開発",
+        "comment": "各言語の基礎やFWの使い方などの研修を行いました。また、1人でアプリケーションの開発も行いました。"
+    }
+]

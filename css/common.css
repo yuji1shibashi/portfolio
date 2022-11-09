@@ -1,0 +1,131 @@
+/* 共通 */
+html, body {
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+}
+.w220px {width: 220px;}
+.w120px {width: 120px;}
+
+/* タブ */
+.panel {
+    display:none;
+}
+.panel.is-show {
+    display:block;
+}
+.tab.is-active {
+    border-bottom: none;
+}
+.tab_area {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.tab_area li {
+    cursor: pointer;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding: 0px 40px;
+    width: 120px;
+    border: solid black 1px
+}
+/* ヘッダ */
+.hoge {
+    width: 100vw;
+    height: 400px;
+}
+
+/* プロフィール */
+.profile-manga {
+    width: 550px;
+    height: 761px;
+}
+
+/* スキル */
+.skill-header {
+    margin-top: 50px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #9ac3ff;
+}
+
+.skill-header-icon {
+    vertical-align: middle;
+    display: inline-block;
+    height: 50px;
+    padding-right: 10px;
+    padding-left: 15px;
+}
+
+.skill-header-title {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bold;
+    font-size: 25px;
+}
+.skill-logo {
+    vertical-align: middle;
+    display: inline-block;
+    height: 50px;
+    padding-right: 10px;
+    padding-left: 15px;
+}
+
+.skill-area {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.skill-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    min-height: 150px;
+    background-color: #d1edff;
+}
+
+.skill-detail {
+    width:48%;
+    margin: 20px 0px;
+}
+
+.skill-box {
+    display: inline-block;
+    width: calc(100% - 125px);
+    vertical-align: top;
+}
+
+.skill-name {
+
+}
+.skill-period {
+
+}
+.skill-rank {
+
+}
+.skill-comment {
+    word-wrap: break-word;
+}
+
+/* タブレット */
+@media screen and (max-width: 960px) {
+
+}
+/* スマフォ */
+@media screen and (max-width: 620px) {
+    .profile-manga {
+        width: 500px;
+        height: 711px;
+    }
+
+    .skill-detail {
+        width:100%;
+        background-color: red;
+        overflow-wrap: break-word;
+    }
+}
